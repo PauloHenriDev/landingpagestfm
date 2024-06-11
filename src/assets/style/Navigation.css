@@ -1,0 +1,15 @@
+nav {
+    width: fit-content;
+}
+
+.navLinks {
+    display: flex;
+    margin: auto;
+    gap: 8%;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: "Exo", sans-serif;
+}

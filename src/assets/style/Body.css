@@ -1,0 +1,73 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 70px 15px 0 15px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.divText {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.main-button {
+    display: flex;
+    gap: 3%;
+}
+
+.main-button Button {
+    width: 140px;
+}
+
+.divImg {
+    position: absolute;
+    left: 63.5%;
+}
+
+.imgCircle {
+    position: inherit;
+    z-index: 1;
+}
+
+.imgGirl {
+    z-index: 2;
+    position: inherit;
+    margin: 90px 0 0 154px;
+}
+
+.recommendation-content {
+    margin-top: 600px;
+    background: #FFF;
+}
+
+.recommendation-img {
+    position: absolute;
+    top: 1000px;
+}
+
+.imgUnion {
+    position: inherit;
+    z-index: 1;
+}
+
+.imgPeople {
+    position: inherit;
+    z-index: 2;
+}
+
+.recommendation-text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+
+.recommendation-text h1, p {
+    color: #000;
+}
