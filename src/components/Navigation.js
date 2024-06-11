@@ -5,7 +5,7 @@ import Button from './Button';
 export default function Navigation() {
     return(
         <>
-            <img src={logo} alt="Logo" />
+            <a href="a"><img src={logo} alt="Logo" /></a>
             <nav className="navLinks">
                 <a href="a">Home</a>
                 <a href="a">Sobre</a>

@@ -10,7 +10,7 @@ export default function Body() {
         <>
             <body className="body">
                 <section className="main-content">    
-                    <div className="divText">
+                    <div className="main-text">
                         <h1>O caminho para uma vida saudável começa agora</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam accusamus distinctio quae eius porro et quaerat, veritatis eveniet, deleniti voluptatibus explicabo, commodi id. Ratione, ipsum similique!</p>
                         <div className="main-button">

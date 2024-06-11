@@ -7,9 +7,18 @@
 
 .main-content, .recommendation-content, .doubt-content, .choice-content {
     padding: 0 15px;
+    font-weight: 700;
 }
 
-.recommendation-content h1, .recommendation-content p {
+.main-content h1, .recommendation-content h1, .doubt-content h1, .choice-content h1 {
+    font-size: 30px;
+}
+
+.main-content p, .recommendation-content p, .doubt-content p, .choice-content p {
+    font-size: 15px;
+}
+
+.recommendation-content h1, .recommendation-content p, .choice-content h1, .choice-content p {
     color: #000;
 }
 
@@ -23,11 +32,15 @@
     height: 203px;
 }
 
-.divText {
+.main-text {
     display: flex;
     flex-direction: column;
     width: 1000px;
     margin-top: 150px;
+}
+
+.main-text h1 {
+    margin-bottom: 30px;
 }
 
 .main-button {
@@ -126,8 +139,12 @@
 }
 
 .choice-text {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.choice-content p {
+    font-size: 22px;
 }
 
 .choice-title {
@@ -137,5 +154,5 @@
 .choice-lifes {
     display: flex;
     text-align: center;
-    width: 150px;
+    width: 180px;
 }
