@@ -29,9 +29,28 @@ export default function Body() {
                         <img className="imgPeople" src={ImgPeople} alt="" />
                     </div>
                     <div className="recommendation-text">
-                        <h1>Para quem é recomendado nosso programa</h1>
+                        <div>
+                            <h1>Para quem é recomendado nosso programa</h1>
+                            <p>Assim como a saúde é para todos nossos programas também são....sam accusamus distinctio quae eius porro et quaerat, vesam accusamus distinctio quae eius porro et quaerat, ve</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam accusamus distinctio quae eius porro et quaerat, verit</p>
+                        </div>
+                    </div>
+                </section>
+                <section className="doubt-content">
+                    <div className="doubt-text">
+                        <h1>Como funciona o programa STFM?</h1>
                         <p>Assim como a saúde é para todos nossos programas também são....sam accusamus distinctio quae eius porro et quaerat, vesam accusamus distinctio quae eius porro et quaerat, ve</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam accusamus distinctio quae eius porro et quaerat, verit</p>
+                    </div>
+                </section>
+                <section className="choice-content">
+                    <div className="choice-text">
+                        <div className="choice-title">
+                            <h1>Por qual razão escolher o STFM?</h1>
+                        </div>
+                        <div className="choice-lifes">
+                            <p>+90 <br /> vidas mudadas</p>
+                        </div>
                     </div>
                 </section>
             </body>

@@ -1,7 +1,11 @@
-.App {
-  background-color: #151515;
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
 }
 
-h1, p {
-  color: #FFF;
+.App {
+  background-color: #151515;
 }

@@ -2,23 +2,38 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 70px 15px 0 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content, .recommendation-content, .doubt-content, .choice-content {
+    padding: 0 15px;
+}
+
+.recommendation-content h1, .recommendation-content p {
+    color: #000;
+}
+
+.main-content h1, .main-content p, .doubt-content h1, .doubt-content p {
+    color: #FFF;
 }
 
 .main-content {
     display: flex;
     flex-direction: row;
+    height: 203px;
 }
 
 .divText {
     display: flex;
     flex-direction: column;
     width: 1000px;
+    margin-top: 150px;
 }
 
 .main-button {
     display: flex;
     gap: 3%;
+    margin-top: 30px;
 }
 
 .main-button Button {
@@ -28,6 +43,7 @@
 .divImg {
     position: absolute;
     left: 63.5%;
+    top: 19%;
 }
 
 .imgCircle {
@@ -44,30 +60,82 @@
 .recommendation-content {
     margin-top: 600px;
     background: #FFF;
+    height: 460px;
 }
 
 .recommendation-img {
-    position: absolute;
-    top: 1000px;
+    margin-top: 10px;
 }
 
 .imgUnion {
-    position: inherit;
+    position: absolute;
     z-index: 1;
 }
 
 .imgPeople {
-    position: inherit;
+    position: absolute;
     z-index: 2;
 }
 
 .recommendation-text {
     display: flex;
-    flex-direction: column;
-    text-align: right;
-
+    justify-content: right;
 }
 
-.recommendation-text h1, p {
-    color: #000;
+.recommendation-text div {
+    display: inherit;
+    flex-direction: column;
+    text-align: end;
+    width: 700px;
+}
+    
+.recommendation-text h1 {
+    margin-bottom: 30px;
+}
+  
+.recommendation-text p {
+    margin-bottom: 40px;
+}
+
+.doubt-content {
+    display: flex;
+    background: #282828;
+    padding-top: 10px;
+}
+
+.doubt-text {
+    display: inherit;
+    flex-direction: column;
+    width: 50%;
+    height: 460px;
+}
+
+.doubt-text h1 {
+    margin-bottom: 30px;
+}
+
+.doubt-text p {
+    margin-bottom: 40px;
+}
+
+.choice-content {
+    display: flex;
+    background: #FFF;
+    padding-top: 10px;
+    height: 460px;
+}
+
+.choice-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.choice-title {
+    justify-content: center;
+}
+
+.choice-lifes {
+    display: flex;
+    text-align: center;
+    width: 150px;
 }
