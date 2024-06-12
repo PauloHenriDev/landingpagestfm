@@ -1,10 +1,10 @@
-import '../assets/style/Button.css';
+import './Button.css';
 
 // Revisar essa parte pq acho que da para fazer sendo function e sem o Onclick
-const Button = ({texto, onClick}) => {
+const Button = ({ text, onClick }) => {
     return(
-        <button onClick={onClick}>
-            {texto}
+        <button className="button" onClick={onClick}>
+            {text}
         </button>
     )
 }

@@ -1,0 +1,51 @@
+.hero {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    padding: 206px 0 131px 0;
+}
+
+.hero__text {
+    width: 486px;
+}
+
+.hero__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.doubts {
+    background-color: #282828;
+    padding: 60px 0 94px;
+}
+
+.doubts__content {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.doubts__texts, .recommendation__texts {
+    width: 588px;
+}
+
+.recommendation {
+    padding: 37px 0 8px;
+    background-color: white;
+}
+
+.recommendation__content {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.stfm__content {
+    padding-top: 60px;
+    background-color: white;
+    text-align: center;
+    height: 956px;
+}

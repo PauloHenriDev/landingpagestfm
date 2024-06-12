@@ -1,0 +1,9 @@
+.paragraph {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.paragraph:not(:last-child) {
+    margin-bottom: 32px;
+}
