@@ -156,3 +156,64 @@
     text-align: center;
     width: 180px;
 }
+
+
+/* Estilos padrão para telas maiores */
+@media (min-width: 769px) {
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        height: 203px;
+    }
+
+    .main-text {
+        width: 1000px;
+        margin-top: 150px;
+    }
+
+    .divImg {
+        position: absolute;
+        left: 63.5%;
+        top: 19%;
+    }
+
+    .recommendation-content {
+        margin-top: 600px;
+        height: 460px;
+    }
+
+    .doubt-content,
+    .choice-content {
+        height: 460px;
+    }
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .divImg {
+        position: relative;
+        left: initial;
+        top: initial;
+        margin-top: 20px;
+    }
+
+    .recommendation-content {
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .doubt-content,
+    .choice-content {
+        height: auto;
+    }
+}
