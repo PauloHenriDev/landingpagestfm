@@ -1,3 +1,26 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.navigation a:not(:last-child) {
+    margin-right: 29px;
+}
+
+.navigation a {
+    color: white;
+}
+
+.button-header {
+    background: #4CDE35;
+}
+
 .hero {
     width: 100%;
     max-width: 1216px;
@@ -7,6 +30,7 @@
 
 .hero__text {
     width: 486px;
+    margin-bottom: 92px;
 }
 
 .hero__buttons {
@@ -48,4 +72,10 @@
     background-color: white;
     text-align: center;
     height: 956px;
+}
+
+.stfm__content div {
+    position: absolute;
+    left: 30%;
+    top: 405%;
 }

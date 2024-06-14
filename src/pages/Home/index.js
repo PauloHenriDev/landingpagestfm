@@ -2,12 +2,25 @@ import Title from "../../components/Title"
 import Paragraph from "../../components/Paragraph"
 import BgImgUnion from '../../assets/img/group-people.png';
 import Button from '../../components/Button/index.js'
-
-import './Home.css'
+import Logo from '../../assets/img/logo.png';
+import './Home.css';
+import HeroImg from '../../assets/img/bgGirl.png';
+import HeroCircle from '../../assets/img/bgCircle.png';
 
 const Home = () => {
     return (
         <>
+            <header className="header">
+                <a href="a"><img src={Logo} alt="logo da STFM" /></a>
+                <nav className="navigation">
+                    <a href="a">Home</a>
+                    <a href="a">Sobre</a>
+                    <a href="a">Serviços</a>
+                    <a href="a">Blog</a>
+                    <a href="a">Localização</a>
+                </nav>
+                <Button className="button-header" text="Comece já" />
+            </header>
             <section className="hero">
                 <div className="hero__text">
                     <Title text="O caminho para uma vida saudável começa agora" isWhite />
@@ -15,6 +28,10 @@ const Home = () => {
                     <div className="hero__buttons">
                         <Button text="Saiba Mais" />
                         <Button text="Veja um vídeo" />
+                    </div>
+                    <div className="hero__image">
+                        <img src={HeroImg} alt="" />
+                        <img src={HeroCircle} alt="" />
                     </div>
                 </div>
             </section>
@@ -42,6 +59,9 @@ const Home = () => {
 
             <section className="stfm__content">
                 <Title text="Por qual razão escolher o STFM?" />
+                <div>
+                    <Paragraph>+90<br /> vidas mudadas</Paragraph>
+                </div>
             </section>
         </>
     )
