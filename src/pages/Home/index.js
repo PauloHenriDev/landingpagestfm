@@ -40,7 +40,7 @@ const Home = () => {
                 <div className="recommendation__content">
                     <img className="recommendation__image" src={BgImgUnion} alt="" />
                     <div className="recommendation__texts">
-                        <Title text="Como funciona o programa STFM?" />
+                        <Title text="Para quem é recomendado nosso programa " />
                         <Paragraph>Assim como a saúde é para todos nossos programas também são....sam accusamus distinctio quae eius porro et quaerat, vesam accusamus distinctio quae eius porro et quaerat, ve</Paragraph>
                         <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam accusamus distinctio quae eius porro et quaerat, verit</Paragraph>
                     </div>
@@ -50,7 +50,7 @@ const Home = () => {
             <section className="doubts">
                 <div className="doubts__content">
                     <div className="doubts__texts">
-                        <Title text="Para quem é recomendado nosso programa" isWhite />
+                        <Title text="Como funciona o programa STFM?" isWhite />
                         <Paragraph isWhite>Assim como a saúde é para todos nossos programas também são....sam accusamus distinctio quae eius porro et quaerat, vesam accusamus distinctio quae eius porro et quaerat, ve</Paragraph>
                         <Paragraph isWhite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam accusamus distinctio quae eius porro et quaerat, verit</Paragraph>
                     </div>

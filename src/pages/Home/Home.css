@@ -42,14 +42,14 @@
 .hero__girl {
     position: absolute;
     z-index: 2;
-    top: 32%;
-    right: 55px;
+    top: 31%;
+    right: 254px;
 }
 
 .hero__circle {
     position: absolute;
     z-index: 1;
-    top: 231px;
+    top: 180px;
     right: 55px;
 }
 
@@ -92,5 +92,5 @@
 .stfm__content div {
     position: absolute;
     left: 30%;
-    top: 405%;
+    top: 240%;
 }
