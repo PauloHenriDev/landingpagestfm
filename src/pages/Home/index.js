@@ -29,10 +29,10 @@ const Home = () => {
                         <Button text="Saiba Mais" />
                         <Button text="Veja um vídeo" />
                     </div>
-                    <div className="hero__image">
-                        <img src={HeroImg} alt="" />
-                        <img src={HeroCircle} alt="" />
-                    </div>
+
+                        <img className="hero__girl" src={HeroImg} alt="" />
+                        <img className="hero__circle" src={HeroCircle} alt="" />
+                    
                 </div>
             </section>
 
@@ -50,7 +50,7 @@ const Home = () => {
             <section className="doubts">
                 <div className="doubts__content">
                     <div className="doubts__texts">
-                        <Title text="Como funciona o programa STFM?" isWhite />
+                        <Title text="Para quem é recomendado nosso programa" isWhite />
                         <Paragraph isWhite>Assim como a saúde é para todos nossos programas também são....sam accusamus distinctio quae eius porro et quaerat, vesam accusamus distinctio quae eius porro et quaerat, ve</Paragraph>
                         <Paragraph isWhite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam accusamus distinctio quae eius porro et quaerat, verit</Paragraph>
                     </div>

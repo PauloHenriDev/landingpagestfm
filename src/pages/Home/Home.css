@@ -39,6 +39,20 @@
     gap: 24px;
 }
 
+.hero__girl {
+    position: absolute;
+    z-index: 2;
+    top: 32%;
+    right: 55px;
+}
+
+.hero__circle {
+    position: absolute;
+    z-index: 1;
+    top: 231px;
+    right: 55px;
+}
+
 .doubts {
     background-color: #282828;
     padding: 60px 0 94px;
@@ -57,6 +71,7 @@
 .recommendation {
     padding: 37px 0 8px;
     background-color: white;
+    z-index: 3;
 }
 
 .recommendation__content {
