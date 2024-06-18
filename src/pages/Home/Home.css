@@ -39,17 +39,9 @@
     gap: 24px;
 }
 
-.hero__girl {
+.hero__imagefull {
     position: absolute;
-    z-index: 2;
-    top: 31%;
-    right: 254px;
-}
-
-.hero__circle {
-    position: absolute;
-    z-index: 1;
-    top: 180px;
+    top: 20.5%;
     right: 55px;
 }
 

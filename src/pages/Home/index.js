@@ -4,8 +4,7 @@ import BgImgUnion from '../../assets/img/group-people.png';
 import Button from '../../components/Button/index.js'
 import Logo from '../../assets/img/logo.png';
 import './Home.css';
-import HeroImg from '../../assets/img/bgGirl.png';
-import HeroCircle from '../../assets/img/bgCircle.png';
+import ImageFull from "../../assets/img/bgCircleGirl.svg"
 
 const Home = () => {
     return (
@@ -29,10 +28,7 @@ const Home = () => {
                         <Button text="Saiba Mais" />
                         <Button text="Veja um vídeo" />
                     </div>
-
-                        <img className="hero__girl" src={HeroImg} alt="" />
-                        <img className="hero__circle" src={HeroCircle} alt="" />
-                    
+                        <img className="hero__imagefull" src={ImageFull} alt="" />
                 </div>
             </section>
 
