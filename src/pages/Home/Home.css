@@ -14,7 +14,7 @@
 }
 
 .navigation a {
-    color: white;
+    color: #FFF;
 }
 
 .button-header {
@@ -45,6 +45,19 @@
     right: 55px;
 }
 
+.recommendation {
+    padding: 37px 0 8px;
+    background-color: white;
+}
+
+.recommendation__content {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
 .doubts {
     background-color: #282828;
     padding: 60px 0 94px;
@@ -60,29 +73,61 @@
     width: 588px;
 }
 
-.recommendation {
-    padding: 37px 0 8px;
-    background-color: white;
-    z-index: 3;
-}
-
-.recommendation__content {
-    width: 100%;
-    max-width: 1216px;
-    margin: 0 auto;
-    display: flex;
-    gap: 40px;
-}
+/* .stfm__content {
+    padding-top: 60px;
+} */
 
 .stfm__content {
-    padding-top: 60px;
-    background-color: white;
-    text-align: center;
-    height: 956px;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
 }
 
-.stfm__content div {
-    position: absolute;
-    left: 30%;
-    top: 240%;
+.stfm__content .teste2 {
+    text-align: center;
 }
+
+.specialist__content {
+    width: 100%;
+    max-width: 1216px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 126px;
+    padding: 105px 0 105px;
+
+}
+
+.specialist__box {
+    display: flex;
+    gap: 20px;
+}
+
+.specialist__imgs {
+    text-align: center;
+}
+
+.specialist__text {
+    width: 40%;
+}
+
+
+
+
+/* .specialist__imgs {
+    margin-right: 126px;
+}
+
+.specialist__imgs .specialist__img {
+    margin-right: 20px;
+}
+
+.specialist__imgs .specialist__img:last-child {
+    margin-right: 0;
+}
+
+.specialist__text {
+    width: 40%;
+} */

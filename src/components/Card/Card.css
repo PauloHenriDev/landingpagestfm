@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__header {
+   display: flex;
+   align-items: center;
+}
+
+.card__header h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card__text {
+    width: 486px;
+}
