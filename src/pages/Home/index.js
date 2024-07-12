@@ -61,25 +61,22 @@ const Home = () => {
             </section>
 
             <section className="stfm__content">
-                <div className="teste2">
-                    <Title className="teste" text="Por qual razão escolher o STFM para melhorar sua saúde?" />
+                <div className="stfm__title">
+                    <Title className="stfm__text" text="Por qual razão escolher o STFM para melhorar sua saúde?" />
                 </div>
 
-                <div>    
+                <div className="stfm__box">    
                     <div className="stfm__numbers">
-                        <Paragraph>+400 LOREM IPSUM</Paragraph>
+                        <Paragraph fontSize='50px'>+400 <br />LOREM IPSUM</Paragraph>
                     </div>
                     <div className="stfm__numbers">
-                        <Paragraph>+279 LOREM IPSUM</Paragraph>
+                        <Paragraph fontSize='50px'>+279 <br />LOREM IPSUM</Paragraph>
                     </div>
                     <div className="stfm__numbers">
-                        <Paragraph>+50 LOREM IPSUM</Paragraph>
+                        <Paragraph fontSize='50px'>+50 <br />LOREM IPSUM</Paragraph>
                     </div>
                 </div>
                 
-                {/* <div>
-                    <Paragraph>+90<br /> vidas mudadas</Paragraph>
-                </div> */}
             </section>
 
             <section className="specialist__content">
@@ -107,7 +104,7 @@ const Home = () => {
             </section>
 
             <section className="difference__content">
-                <Card icon={CardIcon} title="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
+                <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
             </section>
         </>
     )

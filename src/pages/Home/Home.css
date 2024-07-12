@@ -82,11 +82,21 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
-.stfm__content .teste2 {
+.stfm__content .stfm__title {
     text-align: center;
+}
+
+.stfm__box {
+    display: flex;
+    justify-content: space-around;
+    height: 517px;
+    align-items: end;
+}
+
+.stfm__numbers {
+    height: fit-content;
 }
 
 .specialist__content {
@@ -113,21 +123,6 @@
     width: 40%;
 }
 
-
-
-
-/* .specialist__imgs {
-    margin-right: 126px;
+.difference__content {
+    background: white;
 }
-
-.specialist__imgs .specialist__img {
-    margin-right: 20px;
-}
-
-.specialist__imgs .specialist__img:last-child {
-    margin-right: 0;
-}
-
-.specialist__text {
-    width: 40%;
-} */

@@ -1,18 +1,30 @@
 .card {
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    gap: 19.54px;
 }
 
 .card__header {
    display: flex;
    align-items: center;
+   width: 450px;
+   gap: 13.56px;
+   margin-left: 9.64px;
 }
 
 .card__header h3 {
     font-size: 30px;
     font-weight: 700;
+    line-height: 40.53px;
 }
 
 .card__text {
     width: 486px;
+}
+
+.card__text p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20.96px;
 }
