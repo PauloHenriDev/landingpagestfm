@@ -104,7 +104,19 @@ const Home = () => {
             </section>
 
             <section className="difference__content">
-                <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
+                <Title className="difference__title" text='por qual razão escolher o STFM para melhorar sua saúde' />
+                <div className="card__content">
+                    <div className="cards card__left">
+                        <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.1</Card>
+                        <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.1</Card>
+                        <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.1</Card>
+                    </div>
+                    <div className="cards card__right">
+                        <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
+                        <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
+                        <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
+                    </div>
+                </div>
             </section>
         </>
     )

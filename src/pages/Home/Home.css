@@ -126,3 +126,18 @@
 .difference__content {
     background: white;
 }
+
+.card__content {
+    display: flex;
+}
+
+.cards {
+    flex-direction: column;
+    
+    
+    
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    height: 600px;
+}
