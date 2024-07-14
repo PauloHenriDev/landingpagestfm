@@ -1,15 +1,15 @@
 import Title from '../../components/Title';
 import Paragraph from '../../components/Paragraph';
 import Button from '../../components/Button/index.js';
-import Card from '../../components/Card/index.js'
+import Card from '../../components/Card/index.js';
 
 import BgImgUnion from '../../assets/img/group-people.png';
 import Logo from '../../assets/img/logo.png';
 import ImageFull from '../../assets/img/bgCircleGirl.svg';
 import FoodImg from '../../assets/img/food_img.svg';
 import GymImg from '../../assets/img/gym_img.svg';
-import WeightImg from '../../assets/img/weight_img.svg'
-import CardIcon from '../../assets/img/cards_icons.svg'
+import WeightImg from '../../assets/img/weight_img.svg';
+import CardIcon from '../../assets/img/cards_icons.svg';
 
 import './Home.css';
 
@@ -104,7 +104,9 @@ const Home = () => {
             </section>
 
             <section className="difference__content">
-                <Title className="difference__title" text='por qual razão escolher o STFM para melhorar sua saúde' />
+                <div className="difference__title">
+                    <Title text='O que diferencia o STFM dos demais' />
+                </div>
                 <div className="card__content">
                     <div className="cards card__left">
                         <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.1</Card>
