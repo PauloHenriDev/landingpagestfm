@@ -47,7 +47,7 @@
 
 .recommendation {
     padding: 37px 0 8px;
-    background-color: white;
+    background-color: #E0E0E0;
 }
 
 .recommendation__content {
@@ -124,7 +124,8 @@
 }
 
 .difference__content {
-    background: white;
+    background: #E0E0E0;
+    gap: 163.21px;
 }
 
 .difference__title .title {
@@ -147,4 +148,33 @@
     display: flex;
     justify-content: space-around;
     height: 600px;
+}
+
+.employees__content {
+    display: flex;
+    flex-direction: column;
+    background: #E0E0E0;
+    gap: 104.72px;
+    padding-top: 155.75px;
+}
+
+.employees__content .title {
+    text-align: center;
+}
+
+
+.employees__block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1216px;
+    gap: 124.02px;
+}
+
+.employees__row {
+    display: inherit;
+    flex-direction: row;
+    gap: 97.5px;
+    justify-content: center;
 }

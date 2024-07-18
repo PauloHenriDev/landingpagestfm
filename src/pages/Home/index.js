@@ -2,6 +2,7 @@ import Title from '../../components/Title';
 import Paragraph from '../../components/Paragraph';
 import Button from '../../components/Button/index.js';
 import Card from '../../components/Card/index.js';
+import Employees from '../../components/Employes/index.js';
 
 import BgImgUnion from '../../assets/img/group-people.png';
 import Logo from '../../assets/img/logo.png';
@@ -10,6 +11,8 @@ import FoodImg from '../../assets/img/food_img.svg';
 import GymImg from '../../assets/img/gym_img.svg';
 import WeightImg from '../../assets/img/weight_img.svg';
 import CardIcon from '../../assets/img/cards_icons.svg';
+import PauloIcon from '../../assets/img/paulo_img.svg';
+import Teste from '../../assets/img/teste.svg';
 
 import './Home.css';
 
@@ -117,6 +120,23 @@ const Home = () => {
                         <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
                         <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
                         <Card icon={CardIcon} title="Lorem ipsum dolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos delectus tempore ipsam.</Card>
+                    </div>
+                </div>
+            </section>
+
+            <section className="employees__content">
+                <Title text='Conheça os profissionais por trás da sua mudança de vida' />
+                <div className='employees__block'>
+                    <div className='employees__row'>
+                        <Employees icon={Teste} name='Paulo' />
+                        <Employees icon={PauloIcon} name='Nome' />
+                        <Employees icon={PauloIcon} name='Nome' />
+                    </div>
+
+                    <div className='employees__row'>
+                        <Employees icon={PauloIcon} name='Nome' />
+                        <Employees icon={PauloIcon} name='Nome' />
+                        <Employees icon={PauloIcon} name='Nome' />
                     </div>
                 </div>
             </section>
