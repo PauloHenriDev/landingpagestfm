@@ -1,0 +1,31 @@
+.employees__content {
+    display: flex;
+    flex-direction: column;
+    background: #E0E0E0;
+    gap: 104.72px;
+    padding-top: 155.75px;
+    padding-bottom: 197.19px;
+}
+
+.employees__content .maintitle {
+    text-align: center;
+    width: 1034px;
+    margin: 0 auto;
+}
+
+
+.employees__block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1216px;
+    gap: 124.02px;
+}
+
+.employees__row {
+    display: inherit;
+    flex-direction: row;
+    gap: 97.5px;
+    justify-content: center;
+}

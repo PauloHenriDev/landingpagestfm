@@ -1,0 +1,12 @@
+.recommendation {
+    padding: 37px 0 8px;
+    background-color: #E0E0E0;
+}
+
+.recommendation__content {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}

@@ -1,0 +1,31 @@
+.stfm__content {
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.stfm__content .stfm__title {
+    text-align: center;
+    margin: 60px auto 132px;
+    width: 800px;
+}
+
+.stfm__box {
+    display: flex;
+    justify-content: space-between;
+    width: 1197px;
+    margin: 0 auto;
+}
+
+.stfm__numbers {
+    height: fit-content;
+    margin-bottom: 65.61px;
+}
+
+.stfm__numbers {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68.09px;
+    text-align: center;
+}

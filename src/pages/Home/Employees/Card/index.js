@@ -1,6 +1,6 @@
-import '../Employes/Employees.css';
+import './Card.css';
 
-const Employees = ({ icon, name }) => {
+const Card = ({ icon, name }) => {
     return (
         <div className='employees__card'>
             <img src={icon} alt='' />
@@ -9,4 +9,4 @@ const Employees = ({ icon, name }) => {
     )
 }
 
-export default Employees;
+export default Card;

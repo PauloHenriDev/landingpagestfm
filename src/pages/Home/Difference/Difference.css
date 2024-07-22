@@ -1,0 +1,28 @@
+
+.difference__content {
+    background: #E0E0E0;
+    padding-top: 60px;
+    gap: 163.21px;
+}
+
+.difference__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 136px;
+}
+
+.card__content {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1216px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.cards {
+    flex-direction: column;    
+    display: flex;
+    justify-content: space-around;
+}

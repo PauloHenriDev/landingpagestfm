@@ -1,0 +1,13 @@
+.employees__card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+}
+
+.employees__card img{
+    display: block;
+    border: 16px solid white;
+    border-radius: 50%;
+    margin-bottom: 11px;
+}

@@ -1,0 +1,14 @@
+.doubts {
+    background-color: #282828;
+    padding: 60px 0 94px;
+}
+
+.doubts__content {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.doubts__texts, .recommendation__texts {
+    width: 588px;
+}

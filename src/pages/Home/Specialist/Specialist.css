@@ -1,0 +1,23 @@
+.specialist__content {
+    width: 100%;
+    max-width: 1216px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 126px;
+    padding: 105px 0 105px;
+
+}
+
+.specialist__box {
+    display: flex;
+    gap: 20px;
+}
+
+.specialist__imgs {
+    text-align: center;
+}
+
+.specialist__text {
+    width: 40%;
+}
